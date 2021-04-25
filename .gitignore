@@ -1,5 +1,5 @@
 /.vscode
-/build
+/build/*
 /bin
 
 !/build/premake5.exe
