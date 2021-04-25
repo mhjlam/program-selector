@@ -34,7 +34,7 @@ cd "$DIR/build"
 configuration=$([ $DEBUG == true ] && echo "Debug" || echo "Release")
 
 if [[ $BUILD == true ]]; then
-	msbuild.exe $DIR/build/ppp.sln -t:Build -p:Configuration=$configuration -m
+	msbuild.exe $DIR/build/program_selector.sln -t:Build -p:Configuration=$configuration -m
 fi
 
 if [[ $RUN == true ]]; then

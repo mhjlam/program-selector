@@ -1,4 +1,4 @@
-workspace "ppp"
+workspace "program_selector"
    configurations { "Debug", "Release" }
 
 local function chapter_project(project_name)
